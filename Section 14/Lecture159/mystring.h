@@ -8,14 +8,14 @@ public:
 	Mystring(const Mystring &source);			// Copy constructor
 	~Mystring();			// Destructor
 
-protected:
-
-private:
 	// Member Methods
 	void display() const;
 	int get_length() const;
 	const char* get_str() const;
 
+protected:
+
+private:
 	// Member Data
 	char* str;			// Pointer to a char[] that holds a C-style string
 

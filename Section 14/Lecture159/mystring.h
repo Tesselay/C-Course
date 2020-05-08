@@ -1,12 +1,11 @@
 #pragma once
 
-
 class Mystring
 {
 public:
-	Mystring();			// Constructor
-	Mystring(const char *s);			// Constructor
-	Mystring(const Mystring &source);			// Copy Constructor
+	Mystring();			// No args constructor
+	Mystring(const char* s);			// Overloaded constructor
+	Mystring(const Mystring &source);			// Copy constructor
 	~Mystring();			// Destructor
 
 protected:
@@ -15,9 +14,9 @@ private:
 	// Member Methods
 	void display() const;
 	int get_length() const;
-	const char *get_str() const;
+	const char* get_str() const;
 
 	// Member Data
-	char *str;
+	char* str;			// Pointer to a char[] that holds a C-style string
 
 };

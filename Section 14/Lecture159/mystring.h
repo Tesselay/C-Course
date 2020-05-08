@@ -1,5 +1,4 @@
-#ifndef MYSTRING_H
-#define MYSTRING_H
+#pragma once
 
 
 class Mystring
@@ -7,5 +6,3 @@ class Mystring
 public:
 	Mystring();
 };
-
-#endif // MYSTRING_H

@@ -1,9 +1,18 @@
 #include <iostream>
 
+#include "mystring.h"
+
 using namespace std;
 
 int main(int argc, char *argv[])
 {
-	cout << "Hello World!" << endl;
+	Mystring empty;
+	Mystring larry ("Larry");
+	Mystring stooge {larry};
+
+	empty.display();
+	larry.display();
+	stooge.display();
+
 	return 0;
 }

@@ -8,6 +8,8 @@ public:
 	Mystring(const Mystring &source);			// Copy constructor
 	~Mystring();			// Destructor
 
+	Mystring &operator=(const Mystring& source);			// Overloading operator =
+
 	// Member Methods
 	void display() const;
 	int get_length() const;

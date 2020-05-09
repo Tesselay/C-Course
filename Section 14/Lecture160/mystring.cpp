@@ -43,6 +43,18 @@ Mystring::~Mystring()
 }
 
 
+Mystring &Mystring::operator=(const Mystring& source)
+{
+	if (this == &source)
+		return *this;
+	delete [] str;
+	str = new char[std::strlen(source.str) + 1];
+	std::strcpy(str, source.str);
+
+	return *this;
+}
+
+
 void Mystring::display() const
 {
 	std::cout << str << ":" << get_length() << std::endl;

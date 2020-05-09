@@ -4,7 +4,7 @@
 
 Some of the material written while working in: https://www.udemy.com/course/beginning-c-plus-plus-programming/
 
-<br /><br /><br />
+<br />
 
 ## Section 9 - Controlling Program Flow
 ### Challenge
@@ -12,7 +12,7 @@ Some of the material written while working in: https://www.udemy.com/course/begi
 Create an application, that gives the user the ability to do some operations on a list of numbers.
 ```
 
-<br /><br /><br />
+<br />
 
 ## Section 12 - Pointers and References
 ### Challenge
@@ -21,7 +21,7 @@ Create an application, that takes two arrays as an input and multiplies one with
 combined array.
 ```
 
-<br /><br /><br />
+<br />
 
 ## Section 14 - Operator Overloading
 ### Lecture 159

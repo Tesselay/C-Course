@@ -4,8 +4,6 @@
 
 Some of the material written while working in: https://www.udemy.com/course/beginning-c-plus-plus-programming/
 
-<br />
-
 ## Section 9 - Controlling Program Flow
 ### Challenge
 ```
